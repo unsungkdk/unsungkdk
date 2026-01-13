@@ -207,11 +207,11 @@ class NineteenPayTSP {
 
 | Technology | Experience | Projects |
 |------------|------------|----------|
-| **Node.js** | 5+ years | Payment Gateway, Exchange Backend |
-| **Fastify** | 3+ years | High-performance APIs (500+ TPS) |
-| **FastAPI** | 3+ years | Crypto Exchange, KYC Systems |
-| **Prisma** | 3+ years | Type-safe database operations |
-| **Express.js** | 5+ years | REST APIs, Middleware |
+| **Node.js** | 0.5+ years | Payment Gateway, Exchange Backend |
+| **Fastify** | 1+ years | High-performance APIs (500+ TPS) |
+| **FastAPI** | 1+ years | Crypto Exchange, KYC Systems |
+| **Prisma** | 0.5+ years | Type-safe database operations |
+| **Express.js** | 0.5+ years | REST APIs, Middleware |
 
 <br/>
 
@@ -221,10 +221,10 @@ class NineteenPayTSP {
 
 | Technology | Experience | Projects |
 |------------|------------|----------|
-| **Next.js 14** | 3+ years | Merchant Dashboards, Admin Panels |
-| **React** | 4+ years | Web Applications, SPAs |
-| **Flutter** | 3+ years | Trading Terminals, Mobile Apps |
-| **Tailwind CSS** | 3+ years | Modern UI, Responsive Design |
+| **Next.js 14** | 0.5+ years | Merchant Dashboards, Admin Panels |
+| **React** | 0.5+ years | Web Applications, SPAs |
+| **Flutter** | 1+ years | Trading Terminals, Mobile Apps |
+| **Tailwind CSS** | 1+ years | Modern UI, Responsive Design |
 
 <br/>
 
@@ -234,10 +234,10 @@ class NineteenPayTSP {
 
 | Technology | Experience | Use Case |
 |------------|------------|----------|
-| **PostgreSQL** | 5+ years | Transactions, Merchant Data |
-| **Redis** | 4+ years | Caching, Rate Limiting, Sessions |
-| **MongoDB** | 3+ years | Document Storage, Logs |
-| **Docker** | 4+ years | Containerization, Deployment |
+| **PostgreSQL** | 1+ years | Transactions, Merchant Data |
+| **Redis** | 0.2+ years | Caching, Rate Limiting, Sessions |
+| **MongoDB** | 0.1+ years | Document Storage, Logs |
+| **Docker** | 1+ years | Containerization, Deployment |
 
 </div>
 
