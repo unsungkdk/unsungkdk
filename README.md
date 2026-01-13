@@ -75,20 +75,20 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px"/> About Me
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> About Me
 
-<img align="right" width="350" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-### 🎓 The Unconventional Path
+### 🎓 **The Unconventional Path**
 
-I'm not your typical developer. My journey started in **law school** — studying contracts, regulations, and compliance. But somewhere between case laws and financial regulations, I found my true calling: **building the systems that power digital finance**.
+I'm not your typical developer. I started my journey in **law school**, studying contracts, regulations, and compliance. But somewhere between reading case laws and understanding financial regulations, I discovered my true calling — **building the systems that power digital finance**.
 
-**What I Bring to the Table:**
+Today, I combine my **legal background** with **technical expertise** to build:
 
-- ⚖️ **Legal Precision** → Clean, compliant code
-- 🔐 **Security Mindset** → Bank-grade protection
-- 📜 **Documentation Skills** → Crystal clear specs
-- 🎯 **Attention to Detail** → Zero tolerance for bugs
+- 💳 **Payment gateways** that are compliant by design
+- 🔐 **Security systems** that understand regulatory requirements
+- 📜 **Audit trails** that would make any compliance officer proud
+- ⚖️ **KYC/AML engines** built with legal precision
 
 <br clear="right"/>
 
@@ -102,26 +102,103 @@ I'm not your typical developer. My journey started in **law school** — studyin
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/STATUS-ACTIVE_DEVELOPMENT-00d4ff?style=for-the-badge&labelColor=000000"/>
-<img src="https://img.shields.io/badge/TPS-500+-00d4ff?style=for-the-badge&labelColor=000000"/>
-<img src="https://img.shields.io/badge/SECURITY-BANK_GRADE-00d4ff?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-00d4ff?style=for-the-badge&labelColor=0a0a0a"/>
+<img src="https://img.shields.io/badge/CLASSIFICATION-CONFIDENTIAL-ff6b6b?style=for-the-badge&labelColor=0a0a0a"/>
+<img src="https://img.shields.io/badge/TPS%20CAPACITY-500+-00d4ff?style=for-the-badge&labelColor=0a0a0a"/>
 
 </div>
 
+<br/>
+
 ```typescript
+/**
+ * PROJECT: NINETEENPAY
+ * TYPE: Technical Service Provider (TSP)
+ * STATUS: In Active Development
+ * CLASSIFICATION: Proprietary & Confidential
+ * 
+ * Building the backbone of digital payments in India.
+ * Every transaction is a promise. Every promise must be kept.
+ */
+
 class NineteenPayTSP {
-    codename = "NINETEENPAY";
-    type = "Technical Service Provider";
-    architect = "Durga Prasad Tripathi";
+    readonly codename = "NINETEENPAY";
+    readonly architect = "Durga Prasad Tripathi";
+    readonly philosophy = "Security First, Scalability Always";
     
-    capabilities = {
-        payments: ["UPI Collect", "UPI Intent", "Dynamic QR", "Static QR"],
-        features: ["Merchant Onboarding", "KYC Pipeline", "Transaction Monitoring"],
-        security: ["JWT Auth", "HMAC Webhooks", "Rate Limiting", "Audit Logs"],
-        performance: { tps: "500+", latency: "<100ms", uptime: "99.9%" }
+    private readonly capabilities = {
+        // Core Payment Processing
+        paymentMethods: ["UPI Collect", "UPI Intent", "Dynamic QR", "Static QR"],
+        transactionTypes: ["Pay-in", "Payout", "Refund", "Settlement"],
+        tpsCapacity: "500+ transactions per second",
+        responseTime: "< 100ms P95 latency",
+        
+        // Merchant Services
+        merchantOnboarding: "Automated KYC verification pipeline",
+        merchantDashboard: "Real-time analytics & reporting",
+        webhookSystem: "HMAC-signed callbacks with retry logic",
+        
+        // Security & Compliance
+        authentication: "JWT with sliding sessions (10min expiry)",
+        encryption: "AES-256 for data at rest, TLS 1.3 in transit",
+        auditLogging: "Every API call logged with geolocation",
+        rateLimit: "Redis-based with per-merchant quotas",
+        
+        // Infrastructure
+        database: "PostgreSQL with read replicas",
+        caching: "Redis cluster for session & rate limits",
+        messageQueue: "Async processing for settlements",
+        monitoring: "Real-time alerts on anomalies"
     };
+    
+    getPhilosophy(): string {
+        return `
+            In fintech, there are no second chances.
+            A failed payment is a broken promise.
+            A security breach is a betrayal of trust.
+            We build systems that never break promises.
+        `;
+    }
 }
 ```
+
+<br/>
+
+### 🏗️ System Architecture
+
+<div align="center">
+
+```
+                                    ┌─────────────────────────────────┐
+                                    │     🌐 API GATEWAY LAYER        │
+                                    │   Rate Limiting • Auth • WAF    │
+                                    └───────────────┬─────────────────┘
+                                                    │
+                    ┌───────────────────────────────┼───────────────────────────────┐
+                    │                               │                               │
+                    ▼                               ▼                               ▼
+        ┌───────────────────┐           ┌───────────────────┐           ┌───────────────────┐
+        │  🏪 MERCHANT      │           │  💳 PAYMENT       │           │  📊 MONITORING    │
+        │  ONBOARDING       │           │  PROCESSING       │           │  SERVICE          │
+        │                   │           │                   │           │                   │
+        │  • KYC Pipeline   │           │  • UPI Collect    │           │  • Real-time      │
+        │  • Document Mgmt  │           │  • UPI Intent     │           │  • Fraud Detection│
+        │  • Verification   │           │  • QR Payments    │           │  • Risk Scoring   │
+        │  • Profile Mgmt   │           │  • Refunds        │           │  • Alerting       │
+        └─────────┬─────────┘           └─────────┬─────────┘           └─────────┬─────────┘
+                  │                               │                               │
+                  └───────────────────────────────┼───────────────────────────────┘
+                                                  │
+                              ┌───────────────────┴───────────────────┐
+                              │                                       │
+                              ▼                                       ▼
+                  ┌───────────────────┐                   ┌───────────────────┐
+                  │  🗄️ PostgreSQL    │                   │  ⚡ Redis Cluster │
+                  │  + Read Replicas  │                   │  Cache + Sessions │
+                  └───────────────────┘                   └───────────────────┘
+```
+
+</div>
 
 ---
 
@@ -129,21 +206,60 @@ class NineteenPayTSP {
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Arsenal
 
 <div align="center">
 
-### Languages
+### 💻 Languages I Speak
+
 <img src="https://skillicons.dev/icons?i=ts,python,js,dart&theme=dark" />
 
-### Backend & APIs
+| Language | Proficiency | Use Case |
+|----------|-------------|----------|
+| **TypeScript** | ⭐⭐⭐⭐⭐ Expert | Payment APIs, Backend Services |
+| **Python** | ⭐⭐⭐⭐⭐ Expert | Crypto Exchange, Data Processing |
+| **JavaScript** | ⭐⭐⭐⭐⭐ Expert | Frontend, Full-stack |
+| **Dart** | ⭐⭐⭐⭐ Advanced | Mobile Apps, Trading Terminals |
+
+<br/>
+
+### 🔧 Backend & APIs
+
 <img src="https://skillicons.dev/icons?i=nodejs,fastapi,express,prisma&theme=dark" />
 
-### Frontend & Mobile
+| Technology | Experience | Projects |
+|------------|------------|----------|
+| **Node.js** | 0.5+ years | Payment Gateway, Exchange Backend |
+| **Fastify** | 1+ years | High-performance APIs (500+ TPS) |
+| **FastAPI** | 1+ years | Crypto Exchange, KYC Systems |
+| **Prisma** | 0.5+ years | Type-safe database operations |
+| **Express.js** | 0.5+ years | REST APIs, Middleware |
+
+<br/>
+
+### 🎨 Frontend & Mobile
+
 <img src="https://skillicons.dev/icons?i=nextjs,react,flutter,tailwind&theme=dark" />
 
-### Databases & DevOps
+| Technology | Experience | Projects |
+|------------|------------|----------|
+| **Next.js 14** | 0.5+ years | Merchant Dashboards, Admin Panels |
+| **React** | 0.5+ years | Web Applications, SPAs |
+| **Flutter** | 1+ years | Trading Terminals, Mobile Apps |
+| **Tailwind CSS** | 1+ years | Modern UI, Responsive Design |
+
+<br/>
+
+### 🗄️ Databases & Infrastructure
+
 <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,docker&theme=dark" />
+
+| Technology | Experience | Use Case |
+|------------|------------|----------|
+| **PostgreSQL** | 1+ years | Transactions, Merchant Data |
+| **Redis** | 0.2+ years | Caching, Rate Limiting, Sessions |
+| **MongoDB** | 0.1+ years | Document Storage, Logs |
+| **Docker** | 1+ years | Containerization, Deployment |
 
 </div>
 
@@ -155,57 +271,142 @@ class NineteenPayTSP {
 
 ## 🏆 Project Portfolio
 
-> ⚠️ **Proprietary code under NDA — descriptions only**
+> ⚠️ **All projects contain proprietary code and are under NDA. Descriptions only.**
 
-| Project | Type | Status | Stack |
-|---------|------|--------|-------|
-| 💳 **NineteenPay TSP** | Payment Gateway | 🟢 Active | TypeScript, Fastify, PostgreSQL |
-| 🪙 **KoinBae Exchange** | Crypto Exchange | 🟢 Production | Python, FastAPI, SQLAlchemy |
-| 📈 **TradeOX Terminal** | Trading Platform | 🟢 Live | Flutter, Dart, WebSockets |
-| 🤖 **KDK Algo** | Trading Simulator | 🟡 Beta | Flutter, REST APIs |
-| 🌐 **Web Apps** | Dashboards & Portals | 🟢 Multiple | Next.js, React, Tailwind |
+<br/>
 
----
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
-## 🔐 Security Focus
+### 💳 Project 1: NineteenPay TSP
+**Payment Gateway & Merchant Services Platform**
 
 <div align="center">
 
-| Layer | Implementation |
-|-------|----------------|
-| 🔑 **Auth** | JWT, 2FA, Device Fingerprinting |
-| 🔒 **Encryption** | bcrypt, HMAC-SHA256, TLS 1.3, AES-256 |
-| 🛡️ **Protection** | Rate Limiting, WAF, DDoS Shield |
-| 📋 **Compliance** | KYC/AML, Audit Logs, RBAC |
+![Status](https://img.shields.io/badge/Status-Active%20Development-00d4ff?style=flat-square&labelColor=0a0a0a)
+![Type](https://img.shields.io/badge/Type-TSP%20Platform-00d4ff?style=flat-square&labelColor=0a0a0a)
+![TPS](https://img.shields.io/badge/Capacity-500+%20TPS-00d4ff?style=flat-square&labelColor=0a0a0a)
 
 </div>
 
+**Tech Stack:** `TypeScript` `Fastify` `PostgreSQL` `Prisma` `Redis` `Next.js`
+
+| Module | Description |
+|--------|-------------|
+| **Merchant Onboarding** | Automated KYC pipeline with document verification |
+| **Payment Processing** | UPI Collect, Intent, Dynamic QR, Static QR |
+| **Transaction Monitoring** | Real-time fraud detection with risk scoring |
+| **Multi-Pipe Routing** | Intelligent payment routing across multiple banks |
+| **Settlement Engine** | Automated daily/weekly settlement processing |
+| **Admin Dashboard** | Full merchant management & analytics |
+| **Webhook System** | HMAC-signed callbacks with retry mechanism |
+| **Audit System** | Complete audit trail with geolocation tracking |
+
+**Key Achievements:**
+- ✅ Designed for 500+ TPS with sub-100ms latency
+- ✅ Bank-grade security with 15+ security mechanisms
+- ✅ Zero-downtime deployment architecture
+- ✅ Complete audit trail for regulatory compliance
+
 ---
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
-## 📊 Stats
+### 🪙 Project 2: KoinBae Crypto Exchange
+**Full-Featured Cryptocurrency Exchange Platform**
 
 <div align="center">
 
-```
-╔════════════════════════════════════════════════════════════════════╗
-║  🏦 Payment Systems Built     │  3+                                ║
-║  🪙 Crypto Exchanges          │  2+                                ║
-║  📱 Mobile Apps               │  4+                                ║
-║  🌐 Web Applications          │  10+                               ║
-║  ⚡ API Endpoints             │  200+                              ║
-║  📊 Max TPS Designed          │  500+                              ║
-╚════════════════════════════════════════════════════════════════════╝
-```
+![Status](https://img.shields.io/badge/Status-Production-00ff88?style=flat-square&labelColor=0a0a0a)
+![Type](https://img.shields.io/badge/Type-Crypto%20Exchange-00d4ff?style=flat-square&labelColor=0a0a0a)
+![Compliance](https://img.shields.io/badge/Compliance-Travel%20Rule-00d4ff?style=flat-square&labelColor=0a0a0a)
 
 </div>
+
+**Tech Stack:** `Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Redis` `React`
+
+| Module | Description |
+|--------|-------------|
+| **User Authentication** | 2FA, Device Fingerprinting, Session Management |
+| **KYC/AML Engine** | Signzy integration, Digilocker, Video KYC |
+| **Wallet System** | Multi-network wallets (ERC-20, BEP-20, TRC-20) |
+| **Deposit System** | On-chain detection, Travel Rule compliance |
+| **Withdrawal System** | Multi-approval workflow, Risk checks |
+| **Transaction Monitoring** | AML match reviews, Risk scoring |
+| **Admin Panel** | Department-based roles, Full user management |
+| **Notification System** | Email, SMS, In-app notifications |
+
+**Key Achievements:**
+- ✅ 25+ database models with complex relationships
+- ✅ Travel Rule compliant for regulatory requirements
+- ✅ Multi-network wallet support
+- ✅ Comprehensive AML/KYC integration
+
+---
+
+### 📈 Project 3: TradeOX Trading Terminal
+**Real-Time Multi-Exchange Trading Platform**
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-Operational-00ff88?style=flat-square&labelColor=0a0a0a)
+![Type](https://img.shields.io/badge/Type-Trading%20Terminal-00d4ff?style=flat-square&labelColor=0a0a0a)
+![Platform](https://img.shields.io/badge/Platform-Desktop%20%2B%20Mobile-00d4ff?style=flat-square&labelColor=0a0a0a)
+
+</div>
+
+**Tech Stack:** `Flutter` `Dart` `WebSockets` `REST APIs`
+
+| Feature | Description |
+|---------|-------------|
+| **Dual WebSocket Streams** | Simultaneous Bitget + Coinswitch connections |
+| **Live Orderbook** | Real-time bid/ask synchronization |
+| **Arbitrage Calculator** | Cross-exchange price difference detection |
+| **Trading Interface** | Professional trading UI with charts |
+| **Cross-Platform** | Desktop and mobile support |
+
+**Key Achievements:**
+- ✅ Sub-second orderbook updates
+- ✅ Arbitrage opportunity detection
+- ✅ Cross-platform Flutter implementation
+
+---
+
+### 🤖 Project 4: KDK Algo Emulator
+**Algorithmic Trading Simulation Platform**
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-Experimental-ffaa00?style=flat-square&labelColor=0a0a0a)
+![Type](https://img.shields.io/badge/Type-Trading%20Simulator-00d4ff?style=flat-square&labelColor=0a0a0a)
+
+</div>
+
+**Tech Stack:** `Flutter` `Dart` `REST APIs`
+
+| Feature | Description |
+|---------|-------------|
+| **Multi-Exchange Support** | CoinDCX, Switch integration |
+| **Asset Management** | Track and manage trading assets |
+| **Balance Tracking** | Real-time balance across exchanges |
+| **Trade Simulation** | Paper trading without real funds |
+| **Strategy Testing** | Test trading strategies safely |
+
+---
+
+### 🌐 Project 5: Landing Pages & Dashboards
+**Modern Web Applications**
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-Multiple%20Shipped-00ff88?style=flat-square&labelColor=0a0a0a)
+![Type](https://img.shields.io/badge/Type-Web%20Apps-00d4ff?style=flat-square&labelColor=0a0a0a)
+
+</div>
+
+**Tech Stack:** `Next.js 14` `React` `Tailwind CSS` `TypeScript`
+
+| Project | Features |
+|---------|----------|
+| **NineteenPay Website** | Animated hero, Dark/light theme, Responsive |
+| **Merchant Dashboard** | Real-time data, Transaction tables, Analytics |
+| **Admin Portal** | User management, Audit logs, Settings |
+| **API Documentation** | Swagger UI, ReDoc, Interactive docs |
 
 ---
 
@@ -213,26 +414,84 @@ class NineteenPayTSP {
 
 ---
 
-## 🎓 Lawyer → Developer
+## 🔐 Security Implementation
+
+<br/>
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
-### ⚖️ From Law
-- 📜 Contract Analysis → API Design
-- 🔍 Due Diligence → Code Reviews
-- 📋 Compliance → Security First
-- 🎯 Precision → Bug-free Code
+### 🔑 Authentication
+| Mechanism | Implementation |
+|-----------|----------------|
+| JWT Tokens | ✅ 10min sliding sessions |
+| Refresh Tokens | ✅ Automatic renewal |
+| 2FA/MFA | ✅ SMS + TOTP support |
+| Device Fingerprint | ✅ Track trusted devices |
+| IP Whitelisting | ✅ API key restrictions |
 
 </td>
-<td width="50%">
+<td width="33%">
 
-### 💻 To Tech
-- 🏗️ System Architecture
-- 🔐 Security Engineering
-- ⚡ Performance Optimization
-- 🚀 Zero-downtime Deployments
+### 🔒 Encryption
+| Layer | Standard |
+|-------|----------|
+| Passwords | ✅ bcrypt (12 rounds) |
+| API Signing | ✅ HMAC-SHA256 |
+| Transit | ✅ TLS 1.3 |
+| At Rest | ✅ AES-256 |
+| Secrets | ✅ Environment isolation |
+
+</td>
+<td width="33%">
+
+### 📋 Compliance
+| Requirement | Status |
+|-------------|--------|
+| KYC Verification | ✅ Signzy integration |
+| AML Screening | ✅ Real-time checks |
+| Audit Logging | ✅ Every API call |
+| RBAC | ✅ Role-based access |
+| Geolocation | ✅ IP + coordinates |
+
+</td>
+</tr>
+<tr>
+<td width="33%">
+
+### 🛡️ Protection
+| Attack Vector | Defense |
+|---------------|---------|
+| DDoS | ✅ Rate limiting |
+| SQL Injection | ✅ ORM + validation |
+| XSS | ✅ CSP headers |
+| CSRF | ✅ Token validation |
+| Brute Force | ✅ Account lockout |
+
+</td>
+<td width="33%">
+
+### 📊 Monitoring
+| Aspect | Implementation |
+|--------|----------------|
+| Real-time | ✅ Transaction monitoring |
+| Anomaly | ✅ Pattern detection |
+| Risk Scoring | ✅ Per transaction |
+| Alerts | ✅ Instant notifications |
+| Dashboards | ✅ Live metrics |
+
+</td>
+<td width="33%">
+
+### ✅ Validation
+| Input | Method |
+|-------|--------|
+| Request Body | ✅ Zod schemas |
+| Query Params | ✅ Type validation |
+| File Uploads | ✅ Type + size checks |
+| API Keys | ✅ Format validation |
+| Webhooks | ✅ HMAC verification |
 
 </td>
 </tr>
@@ -244,42 +503,164 @@ class NineteenPayTSP {
 
 ---
 
-## 🌐 Connect With Me
+## 📊 Experience Metrics
 
 <div align="center">
 
-| Platform | Handle | Response |
-|----------|--------|----------|
-| 🐦 **Twitter** | [@d_p_tripathi](https://twitter.com/d_p_tripathi) | < 24h |
-| 💬 **Telegram** | [@dptripathi](https://t.me/dptripathi) | < 12h |
-| 📧 **Email** | [unsungkkd@gmail.com](mailto:unsungkkd@gmail.com) | < 24h |
-| 📸 **Instagram** | [@dptripathii](https://instagram.com/dptripathii) | < 48h |
-
-<br/>
-
-### 💼 Available For
-
-**Fintech** • **Crypto** • **Trading Systems** • **Security Consulting** • **Technical Leadership**
-
-<br/>
-
-📍 **India** • 🕐 **IST (UTC+5:30)** • 🤝 **Remote/Hybrid**
+| Metric | Count | Details |
+|--------|-------|---------|
+| 🏦 **Payment Systems** | 3+ | TSP, Gateway integrations |
+| 🪙 **Crypto Exchanges** | 2+ | Full exchange platforms |
+| 📱 **Mobile Apps** | 4+ | Trading terminals, utilities |
+| 🌐 **Web Applications** | 10+ | Dashboards, portals, landing pages |
+| 🔐 **Security Features** | 15+ | Auth, encryption, monitoring |
+| 📊 **Max TPS Designed** | 500+ | High-throughput payment systems |
+| 🗄️ **Database Models** | 100+ | Complex relational schemas |
+| ⚡ **API Endpoints** | 200+ | RESTful APIs |
+| 🌐 **Webhook Integrations** | 10+ | Payment callbacks, notifications |
+| 📜 **Lines of Code** | 50,000+ | Production-grade systems |
 
 </div>
 
 ---
 
-<!-- FOOTER -->
+## 🧠 Expertise Levels
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:000428,50:004e92,100:000428&section=footer" width="100%"/>
+```
+DOMAIN EXPERTISE
+════════════════════════════════════════════════════════════════════════════════
+
+Fintech & Payments        ████████████████████████████████████████████████  95%
+Cryptocurrency Systems    ██████████████████████████████████████████████░░  90%
+Trading Platforms         ████████████████████████████████████████████░░░░  85%
+Backend Architecture      ████████████████████████████████████████████████  95%
+Frontend Development      ██████████████████████████████████████████████░░  90%
+Mobile Development        ████████████████████████████████████████████░░░░  85%
+System Design             ██████████████████████████████████████████████░░  90%
+Security Engineering      ██████████████████████████████████████████████░░  90%
+Database Architecture     ████████████████████████████████████████████████  95%
+API Design                ████████████████████████████████████████████████  95%
+DevOps & Deployment       ██████████████████████████████████████░░░░░░░░░░  75%
+Legal & Compliance        ████████████████████████████████████████████░░░░  85%
+```
+
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+---
+
+## 🎓 The Lawyer-Developer Advantage
 
 <br/>
 
-<img src="https://img.shields.io/badge/⚡_LAWYER_TURNED_TECHIE-Building_Digital_Finance-00d4ff?style=for-the-badge&labelColor=000000"/>
+<table>
+<tr>
+<td width="50%">
 
-<br/><br/>
+### ⚖️ From Law
+- 📜 **Contract Analysis** → Clean API contracts
+- 🔍 **Due Diligence** → Thorough code reviews
+- 📋 **Compliance Focus** → Security by design
+- 🎯 **Attention to Detail** → Bug-free code
+- 📚 **Documentation** → Comprehensive specs
+- 🤝 **Client Communication** → Clear requirements
 
-**Let's build something amazing together! 🚀**
+</td>
+<td width="50%">
+
+### 💻 To Tech
+- 🏗️ **System Architecture** → Scalable designs
+- 🔐 **Security Engineering** → Bank-grade protection
+- ⚡ **Performance Optimization** → Sub-100ms latency
+- 📊 **Data Modeling** → Complex schemas
+- 🔄 **API Development** → RESTful standards
+- 🚀 **Deployment** → Zero-downtime releases
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+### 🎯 The Result?
+
+**Systems that are not just technically excellent, but also:**
+- ✅ Legally compliant from day one
+- ✅ Audit-ready without retrofitting
+- ✅ Documented like legal contracts
+- ✅ Secure as if under court scrutiny
+
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+---
+
+## 🌐 Let's Connect
+
+<div align="center">
+
+### 💬 I'm Available For
+
+| Type | Description |
+|------|-------------|
+| 🏦 **Fintech Projects** | Payment gateways, TSP systems, banking integrations |
+| 🪙 **Crypto Development** | Exchanges, wallets, trading platforms |
+| 📈 **Trading Systems** | Real-time terminals, algo trading, market data |
+| 🔐 **Security Consulting** | Audit systems, compliance implementation |
+| 💼 **Technical Leadership** | Architecture design, team mentoring |
+
+<br/>
+
+### 📱 Reach Me At
+
+| Platform | Handle | Response Time |
+|----------|--------|---------------|
+| 🐦 **Twitter** | [@d_p_tripathi](https://twitter.com/d_p_tripathi) | < 24 hours |
+| 💬 **Telegram** | [@dptripathi](https://t.me/dptripathi) | < 12 hours |
+| 📧 **Email** | [unsungkkd@gmail.com](mailto:unsungkkd@gmail.com) | < 24 hours |
+| 📸 **Instagram** | [@dptripathii](https://instagram.com/dptripathii) | < 48 hours |
+
+<br/>
+
+### 🌍 Location & Availability
+
+| Info | Details |
+|------|---------|
+| 📍 **Location** | India |
+| 🕐 **Timezone** | IST (UTC+5:30) |
+| 💼 **Status** | Open to opportunities |
+| 🤝 **Collaboration** | Remote / Hybrid |
+
+</div>
+
+---
+
+<!-- ANIMATED FOOTER -->
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:000428,50:004e92,100:000428&section=footer&text=Let's%20Build%20Something%20Amazing&fontSize=24&fontColor=00d4ff&animation=twinkling" width="100%"/>
+
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Available%20for%20Hire-00ff88?style=for-the-badge&labelColor=0a0a0a)
+![Response](https://img.shields.io/badge/Response%20Time-<%2024%20Hours-00d4ff?style=for-the-badge&labelColor=0a0a0a)
+
+<br/>
+
+**⚡ LAWYER TURNED TECHIE | FINTECH ARCHITECT | BUILDING THE FUTURE OF DIGITAL FINANCE ⚡**
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=unsungkdk&label=Profile%20Views&color=00d4ff&style=for-the-badge&labelColor=0a0a0a" alt="Profile Views"/>
 
 </div>
