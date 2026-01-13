@@ -11,9 +11,9 @@
 <!-- ANIMATED NAME -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=45&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&height=70&lines=DURGA+PRASAD+TRIPATHI" alt="Name" /></a>
 
-<!-- TAGLINE WITH GLOW EFFECT -->
+<!-- TAGLINE -->
 <br/>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=00D4FF&center=true&vCenter=true&repeat=true&width=500&height=35&lines=⚖️+LAWYER+TURNED+TECHIE+💻" alt="Tagline" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=00D4FF&center=true&vCenter=true&repeat=true&width=550&height=35&lines=%E2%9A%96%EF%B8%8F+LAWYER+TURNED+TECHIE+%F0%9F%92%BB" alt="Tagline" /></a>
 
 <br/><br/>
 
