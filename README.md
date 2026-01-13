@@ -1,51 +1,91 @@
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+<!-- ████████████████████████████ HEADER SECTION ████████████████████████████████████ -->
+<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-<!-- ANIMATED HEADER - ELECTRIC BLUE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:000428,50:004e92,100:000428&text=DURGA%20PRASAD%20TRIPATHI&fontSize=50&fontColor=00d4ff&animation=twinkling&fontAlignY=35&desc=⚡%20LAWYER%20TURNED%20TECHIE%20⚡%20|%20FINTECH%20ARCHITECT&descSize=18&descAlignY=55&descAlign=50" width="100%"/>
-
-<!-- WAVE ANIMATION -->
-<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" width="100%"/>
+<!-- CYBER HEADER WITH SOFT EDGE -->
+<img src="https://capsule-render.vercel.app/api?type=soft&height=200&color=gradient&customColorList=12,14,16,18,20&text=&fontSize=0&fontAlignY=50" width="100%"/>
 
 </div>
 
-<!-- ANIMATED TYPING - MULTIPLE LINES -->
-<div align="center">
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=900&height=120&lines=%F0%9F%8E%93+From+Law+School+to+Code+School+-+A+Different+Kind+of+Justice;%F0%9F%92%B3+Building+Payment+Systems+That+Move+Real+Money;%F0%9F%94%90+Security+First%2C+Scalability+Always%2C+Excellence+Forever;%F0%9F%9A%80+500%2B+TPS+%7C+Bank-Grade+Security+%7C+Zero+Downtime" alt="Typing SVG" /></a>
-
-</div>
-
-<br/>
-
-<!-- ANIMATED SOCIAL BADGES - ELECTRIC BLUE -->
-<div align="center">
-
-<a href="https://twitter.com/d_p_tripathi">
-  <img src="https://img.shields.io/badge/Twitter-d__p__tripathi-00d4ff?style=for-the-badge&logo=twitter&logoColor=00d4ff&labelColor=0a0a0a" alt="Twitter"/>
-</a>
-<a href="https://t.me/dptripathi">
-  <img src="https://img.shields.io/badge/Telegram-dptripathi-00d4ff?style=for-the-badge&logo=telegram&logoColor=00d4ff&labelColor=0a0a0a" alt="Telegram"/>
-</a>
-<a href="mailto:unsungkkd@gmail.com">
-  <img src="https://img.shields.io/badge/Email-unsungkkd@gmail.com-00d4ff?style=for-the-badge&logo=gmail&logoColor=00d4ff&labelColor=0a0a0a" alt="Email"/>
-</a>
-<a href="https://instagram.com/dptripathii">
-  <img src="https://img.shields.io/badge/Instagram-dptripathii-00d4ff?style=for-the-badge&logo=instagram&logoColor=00d4ff&labelColor=0a0a0a" alt="Instagram"/>
-</a>
-
-</div>
-
-<br/>
-
-<!-- ANIMATED STATS LINE -->
+<!-- NAME WITH GLITCH EFFECT STYLING -->
 <div align="center">
   
-![Profile Views](https://komarev.com/ghpvc/?username=unsungkdk&label=Profile%20Views&color=00d4ff&style=for-the-badge&labelColor=0a0a0a)
-![Years Coding](https://img.shields.io/badge/Years%20Coding-5+-00d4ff?style=for-the-badge&labelColor=0a0a0a)
-![Projects](https://img.shields.io/badge/Projects%20Shipped-15+-00d4ff?style=for-the-badge&labelColor=0a0a0a)
-![Coffee](https://img.shields.io/badge/Coffee%20Consumed-∞-00d4ff?style=for-the-badge&labelColor=0a0a0a)
+# ⚡ DURGA PRASAD TRIPATHI ⚡
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=24&duration=3000&pause=500&color=00D4FF&center=true&vCenter=true&repeat=true&width=600&height=40&lines=LAWYER+TURNED+TECHIE" alt="Tagline" />
 
 </div>
+
+<!-- ANIMATED SUBTITLE BAR -->
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║  ⚖️  LAW SCHOOL  →  💻  CODE SCHOOL  →  🏦  FINTECH ARCHITECT  →  🚀  THE FUTURE    ║
+╚══════════════════════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+<!-- ANIMATED ROLE BADGES -->
+<div align="center">
+
+<img src="https://img.shields.io/badge/🏦_FINTECH_ARCHITECT-0a0a0a?style=for-the-badge&labelColor=0a0a0a"/>
+<img src="https://img.shields.io/badge/💳_PAYMENT_SYSTEMS-0a0a0a?style=for-the-badge&labelColor=0a0a0a"/>
+<img src="https://img.shields.io/badge/🪙_CRYPTO_INFRASTRUCTURE-0a0a0a?style=for-the-badge&labelColor=0a0a0a"/>
+<img src="https://img.shields.io/badge/📈_TRADING_PLATFORMS-0a0a0a?style=for-the-badge&labelColor=0a0a0a"/>
+
+</div>
+
+<br/>
+
+<!-- TYPING ANIMATION - ELECTRIC BLUE -->
+<div align="center">
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=4000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=80&lines=%22Understanding+law+taught+me+how+money+SHOULD+move.%22;%22Engineering+taught+me+how+to+MAKE+it+move.%22" alt="Quote" /></a>
+
+</div>
+
+<br/>
+
+<!-- ANIMATED WAVE DIVIDER -->
+<img src="https://raw.githubusercontent.com/trinib/trinib/82213791fa9ff58d3ca768ddd6de2489ec23ffca/images/footer.svg" width="100%"/>
+
+<!-- SOCIAL LINKS - CYBER STYLE -->
+<div align="center">
+
+<a href="https://twitter.com/d_p_tripathi"><img src="https://img.shields.io/badge/𝕏-d__p__tripathi-00d4ff?style=for-the-badge&logo=x&logoColor=white&labelColor=000000"/></a>
+<a href="https://t.me/dptripathi"><img src="https://img.shields.io/badge/TELEGRAM-dptripathi-00d4ff?style=for-the-badge&logo=telegram&logoColor=white&labelColor=000000"/></a>
+<a href="mailto:unsungkkd@gmail.com"><img src="https://img.shields.io/badge/EMAIL-unsungkkd-00d4ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000"/></a>
+<a href="https://instagram.com/dptripathii"><img src="https://img.shields.io/badge/INSTAGRAM-dptripathii-00d4ff?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000"/></a>
+
+</div>
+
+<br/>
+
+<!-- STATS BADGES -->
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=unsungkdk&label=PROFILE+VIEWS&color=00d4ff&style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/EXPERIENCE-5%2B_YEARS-00d4ff?style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/PROJECTS-15%2B_SHIPPED-00d4ff?style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/STATUS-AVAILABLE-00ff88?style=flat-square&labelColor=000000"/>
+
+</div>
+
+<br/>
+
+<!-- ANIMATED TECH LINE -->
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2000&pause=500&color=00D4FF&center=true&vCenter=true&repeat=true&width=600&height=20&lines=TypeScript+%E2%80%A2+Python+%E2%80%A2+Node.js+%E2%80%A2+FastAPI+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis+%E2%80%A2+Flutter+%E2%80%A2+Next.js" alt="Tech Stack" />
+
+</div>
+
+<!-- GLOWING DIVIDER -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ---
 
@@ -207,11 +247,11 @@ class NineteenPayTSP {
 
 | Technology | Experience | Projects |
 |------------|------------|----------|
-| **Node.js** | 0.5+ years | Payment Gateway, Exchange Backend |
-| **Fastify** | 1+ years | High-performance APIs (500+ TPS) |
-| **FastAPI** | 1+ years | Crypto Exchange, KYC Systems |
-| **Prisma** | 0.5+ years | Type-safe database operations |
-| **Express.js** | 0.5+ years | REST APIs, Middleware |
+| **Node.js** | 5+ years | Payment Gateway, Exchange Backend |
+| **Fastify** | 3+ years | High-performance APIs (500+ TPS) |
+| **FastAPI** | 3+ years | Crypto Exchange, KYC Systems |
+| **Prisma** | 3+ years | Type-safe database operations |
+| **Express.js** | 5+ years | REST APIs, Middleware |
 
 <br/>
 
@@ -221,10 +261,10 @@ class NineteenPayTSP {
 
 | Technology | Experience | Projects |
 |------------|------------|----------|
-| **Next.js 14** | 0.5+ years | Merchant Dashboards, Admin Panels |
-| **React** | 0.5+ years | Web Applications, SPAs |
-| **Flutter** | 1+ years | Trading Terminals, Mobile Apps |
-| **Tailwind CSS** | 1+ years | Modern UI, Responsive Design |
+| **Next.js 14** | 3+ years | Merchant Dashboards, Admin Panels |
+| **React** | 4+ years | Web Applications, SPAs |
+| **Flutter** | 3+ years | Trading Terminals, Mobile Apps |
+| **Tailwind CSS** | 3+ years | Modern UI, Responsive Design |
 
 <br/>
 
@@ -234,10 +274,10 @@ class NineteenPayTSP {
 
 | Technology | Experience | Use Case |
 |------------|------------|----------|
-| **PostgreSQL** | 1+ years | Transactions, Merchant Data |
-| **Redis** | 0.2+ years | Caching, Rate Limiting, Sessions |
-| **MongoDB** | 0.1+ years | Document Storage, Logs |
-| **Docker** | 1+ years | Containerization, Deployment |
+| **PostgreSQL** | 5+ years | Transactions, Merchant Data |
+| **Redis** | 4+ years | Caching, Rate Limiting, Sessions |
+| **MongoDB** | 3+ years | Document Storage, Logs |
+| **Docker** | 4+ years | Containerization, Deployment |
 
 </div>
 
@@ -578,110 +618,3 @@ Legal & Compliance        ██████████████████
 <br/>
 
 <div align="center">
-
-### 🎯 The Result?
-
-**Systems that are not just technically excellent, but also:**
-- ✅ Legally compliant from day one
-- ✅ Audit-ready without retrofitting
-- ✅ Documented like legal contracts
-- ✅ Secure as if under court scrutiny
-
-</div>
-
----
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
-## 🌐 Let's Connect
-
-<div align="center">
-
-### 💬 I'm Available For
-
-| Type | Description |
-|------|-------------|
-| 🏦 **Fintech Projects** | Payment gateways, TSP systems, banking integrations |
-| 🪙 **Crypto Development** | Exchanges, wallets, trading platforms |
-| 📈 **Trading Systems** | Real-time terminals, algo trading, market data |
-| 🔐 **Security Consulting** | Audit systems, compliance implementation |
-| 💼 **Technical Leadership** | Architecture design, team mentoring |
-
-<br/>
-
-### 📱 Reach Me At
-
-| Platform | Handle | Response Time |
-|----------|--------|---------------|
-| 🐦 **Twitter** | [@d_p_tripathi](https://twitter.com/d_p_tripathi) | < 24 hours |
-| 💬 **Telegram** | [@dptripathi](https://t.me/dptripathi) | < 12 hours |
-| 📧 **Email** | [unsungkkd@gmail.com](mailto:unsungkkd@gmail.com) | < 24 hours |
-| 📸 **Instagram** | [@dptripathii](https://instagram.com/dptripathii) | < 48 hours |
-
-<br/>
-
-### 🌍 Location & Availability
-
-| Info | Details |
-|------|---------|
-| 📍 **Location** | India |
-| 🕐 **Timezone** | IST (UTC+5:30) |
-| 💼 **Status** | Open to opportunities |
-| 🤝 **Collaboration** | Remote / Hybrid |
-
-</div>
-
----
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
----
-
-## 💭 Philosophy
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                   ║
-║   "In law, every word in a contract matters.                                      ║
-║    In code, every line in a system matters.                                       ║
-║                                                                                   ║
-║    I bring the precision of legal drafting to software engineering.               ║
-║    Every API endpoint is a promise. Every database transaction is a contract.     ║
-║    Every security measure is a safeguard.                                         ║
-║                                                                                   ║
-║    When you're moving real money, there's no room for 'it works on my machine.'   ║
-║    There's only 'it works. Period.'"                                              ║
-║                                                                                   ║
-║                                        — Durga Prasad Tripathi                    ║
-║                                           Lawyer Turned Techie                    ║
-║                                                                                   ║
-╚═══════════════════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-<!-- ANIMATED FOOTER -->
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:000428,50:004e92,100:000428&section=footer&text=Let's%20Build%20Something%20Amazing&fontSize=24&fontColor=00d4ff&animation=twinkling" width="100%"/>
-
-<br/>
-
-![Status](https://img.shields.io/badge/Status-Available%20for%20Hire-00ff88?style=for-the-badge&labelColor=0a0a0a)
-![Response](https://img.shields.io/badge/Response%20Time-<%2024%20Hours-00d4ff?style=for-the-badge&labelColor=0a0a0a)
-
-<br/>
-
-**⚡ LAWYER TURNED TECHIE | FINTECH ARCHITECT | BUILDING THE FUTURE OF DIGITAL FINANCE ⚡**
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=unsungkdk&label=Profile%20Views&color=00d4ff&style=for-the-badge&labelColor=0a0a0a" alt="Profile Views"/>
-
-</div>
