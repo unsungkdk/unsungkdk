@@ -22,6 +22,7 @@
 <img src="https://img.shields.io/badge/💳-PAYMENT_SYSTEMS-00d4ff?style=for-the-badge&labelColor=000000"/>
 <img src="https://img.shields.io/badge/🪙-CRYPTO_BUILDER-00d4ff?style=for-the-badge&labelColor=000000"/>
 <img src="https://img.shields.io/badge/📈-TRADING_PLATFORMS-00d4ff?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/🤖-ALGO_TRADING-00d4ff?style=for-the-badge&labelColor=000000"/>
 
 <br/><br/>
 
@@ -35,7 +36,7 @@
 
 <!-- STATS -->
 <img src="https://komarev.com/ghpvc/?username=unsungkdk&label=VISITORS&color=00d4ff&style=flat-square&labelColor=000000"/>
-<img src="https://img.shields.io/badge/PROJECTS-15+-00d4ff?style=flat-square&labelColor=000000"/>
+<img src="https://img.shields.io/badge/PROJECTS-20+-00d4ff?style=flat-square&labelColor=000000"/>
 <img src="https://img.shields.io/badge/STATUS-AVAILABLE-00ff88?style=flat-square&labelColor=000000"/>
 
 </div>
@@ -261,6 +262,21 @@ class NineteenPayTSP {
 | **MongoDB** | 0.1+ years | Document Storage, Logs |
 | **Docker** | 1+ years | Containerization, Deployment |
 
+<br/>
+
+### 🔧 Additional Skills
+
+<img src="https://skillicons.dev/icons?i=rust,git,nginx,linux&theme=dark" />
+
+| Technology | Experience | Use Case |
+|------------|------------|----------|
+| **Rust** | 0.5+ years | High-performance matching engines (PyO3) |
+| **Git** | 1+ years | Version control, CI/CD workflows |
+| **Nginx** | 0.5+ years | Reverse proxy, Load balancing |
+| **Linux** | 1+ years | Server management, Shell scripting |
+| **Pandas** | 1+ years | Trading data analysis, Backtesting |
+| **WebSockets** | 1+ years | Real-time market data, Orderbooks |
+
 </div>
 
 ---
@@ -389,7 +405,71 @@ class NineteenPayTSP {
 
 ---
 
-### 🌐 Project 5: Landing Pages & Dashboards
+### 📈 Project 5: Delta Exchange Master
+**Options Trading Backtesting & Live Trading System**
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-Live%20Trading-00ff88?style=flat-square&labelColor=0a0a0a)
+![Type](https://img.shields.io/badge/Type-Algo%20Trading-00d4ff?style=flat-square&labelColor=0a0a0a)
+![Strategy](https://img.shields.io/badge/Strategy-Options%20Strangle-00d4ff?style=flat-square&labelColor=0a0a0a)
+
+</div>
+
+**Tech Stack:** `Python` `Pandas` `REST APIs` `WebSockets` `Alembic` `PostgreSQL`
+
+| Feature | Description |
+|---------|-------------|
+| **Strangle Strategy** | Automated 0.20 delta strangle execution |
+| **Backtesting Engine** | Historical BTC options data analysis (12 months) |
+| **Risk Management** | Multi-level stops (75% profit, 150% hard stop, 3% spot move) |
+| **Position Monitoring** | Real-time P&L tracking and adjustment logic |
+| **IV Analysis** | Implied volatility tracking and filtering (IV < 50%) |
+| **Trade Logging** | Detailed CSV logs with entry/exit/P&L tracking |
+| **API Integration** | Delta Exchange REST client for live trading |
+
+**Key Achievements:**
+- ✅ Backtested 12 months of BTC options data
+- ✅ Monthly P&L analysis and strategy optimization
+- ✅ Real-time position adjustment at 50% and 100% loss
+- ✅ Automated profit target and stop-loss execution
+
+---
+
+### 🎮 Project 6: 19Games Platform
+**Multi-Tenant Gaming Platform with Distributed Compute**
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-MVP%20Planning-ffaa00?style=flat-square&labelColor=0a0a0a)
+![Type](https://img.shields.io/badge/Type-Gaming%20Platform-00d4ff?style=flat-square&labelColor=0a0a0a)
+![Model](https://img.shields.io/badge/Model-Whitelabel%20SaaS-00d4ff?style=flat-square&labelColor=0a0a0a)
+
+</div>
+
+**Tech Stack:** `Next.js` `TypeScript` `PostgreSQL` `Razorpay` `WebRTC` `Docker`
+
+| Module | Description |
+|--------|-------------|
+| **Multi-Tenant System** | Domain-based tenant resolution with whitelabel branding |
+| **4 User Types** | Players, Providers, Standard Brokers, Special Brokers |
+| **Distributed Compute** | Provider matching system for game compute distribution |
+| **Dual Wallet System** | Player billing wallet + Provider earnings wallet |
+| **KYC Pipeline** | Provider verification with PAN, Aadhaar, Bank details |
+| **Billing Engine** | 95/5 revenue split (Provider/Platform) |
+| **Tax & Invoicing** | GST compliance, TDS, automated invoice generation |
+| **Session Management** | Real-time compute session tracking and quality metrics |
+
+**Key Features:**
+- ✅ Whitelabel multi-tenant architecture
+- ✅ Load balancing across compute providers
+- ✅ Time-based billing with commission deduction
+- ✅ India-only compliance and payments (Razorpay)
+- ✅ Automated payout processing to providers
+
+---
+
+### 🌐 Project 7: Landing Pages & Dashboards
 **Modern Web Applications**
 
 <div align="center">
@@ -399,7 +479,7 @@ class NineteenPayTSP {
 
 </div>
 
-**Tech Stack:** `Next.js 14` `React` `Tailwind CSS` `TypeScript`
+**Tech Stack:** `Next.js 14` `React` `Tailwind CSS` `TypeScript` `HTMX` `Python Flask`
 
 | Project | Features |
 |---------|----------|
@@ -407,6 +487,8 @@ class NineteenPayTSP {
 | **Merchant Dashboard** | Real-time data, Transaction tables, Analytics |
 | **Admin Portal** | User management, Audit logs, Settings |
 | **API Documentation** | Swagger UI, ReDoc, Interactive docs |
+| **HTMX Trade Terminal** | Lightweight trading interface with HTMX + Tailwind |
+| **Derivatives Landing** | Marketing site for derivative trading products |
 
 ---
 
@@ -511,14 +593,17 @@ class NineteenPayTSP {
 |--------|-------|---------|
 | 🏦 **Payment Systems** | 3+ | TSP, Gateway integrations |
 | 🪙 **Crypto Exchanges** | 2+ | Full exchange platforms |
-| 📱 **Mobile Apps** | 4+ | Trading terminals, utilities |
-| 🌐 **Web Applications** | 10+ | Dashboards, portals, landing pages |
+| 📈 **Trading Systems** | 3+ | Options trading, Algo trading, Multi-exchange |
+| 🎮 **Gaming Platforms** | 1+ | Multi-tenant SaaS with distributed compute |
+| 📱 **Mobile Apps** | 5+ | Trading terminals, utilities |
+| 🌐 **Web Applications** | 12+ | Dashboards, portals, landing pages |
 | 🔐 **Security Features** | 15+ | Auth, encryption, monitoring |
 | 📊 **Max TPS Designed** | 500+ | High-throughput payment systems |
 | 🗄️ **Database Models** | 100+ | Complex relational schemas |
-| ⚡ **API Endpoints** | 200+ | RESTful APIs |
+| ⚡ **API Endpoints** | 250+ | RESTful APIs |
 | 🌐 **Webhook Integrations** | 10+ | Payment callbacks, notifications |
-| 📜 **Lines of Code** | 50,000+ | Production-grade systems |
+| 📜 **Lines of Code** | 60,000+ | Production-grade systems |
+| 🤖 **Algo Strategies** | 5+ | Options strangle, Arbitrage detection |
 
 </div>
 
@@ -535,6 +620,8 @@ DOMAIN EXPERTISE
 Fintech & Payments        ████████████████████████████████████████████████  95%
 Cryptocurrency Systems    ██████████████████████████████████████████████░░  90%
 Trading Platforms         ████████████████████████████████████████████░░░░  85%
+Algo Trading & Strategy   ████████████████████████████████████████░░░░░░░░  80%
+Options Trading           ██████████████████████████████████████░░░░░░░░░░  75%
 Backend Architecture      ████████████████████████████████████████████████  95%
 Frontend Development      ██████████████████████████████████████████████░░  90%
 Mobile Development        ████████████████████████████████████████████░░░░  85%
@@ -544,6 +631,7 @@ Database Architecture     ██████████████████
 API Design                ████████████████████████████████████████████████  95%
 DevOps & Deployment       ██████████████████████████████████████░░░░░░░░░░  75%
 Legal & Compliance        ████████████████████████████████████████████░░░░  85%
+Data Analysis & Backtest  ████████████████████████████████████████░░░░░░░░  80%
 ```
 
 </div>
@@ -615,7 +703,9 @@ Legal & Compliance        ██████████████████
 |------|-------------|
 | 🏦 **Fintech Projects** | Payment gateways, TSP systems, banking integrations |
 | 🪙 **Crypto Development** | Exchanges, wallets, trading platforms |
-| 📈 **Trading Systems** | Real-time terminals, algo trading, market data |
+| 📈 **Trading Systems** | Real-time terminals, algo trading, options strategies, backtesting |
+| 🎮 **Gaming Platforms** | Multi-tenant SaaS, distributed systems, billing engines |
+| 🤖 **Algo Development** | Quantitative strategies, automated trading, risk management |
 | 🔐 **Security Consulting** | Audit systems, compliance implementation |
 | 💼 **Technical Leadership** | Architecture design, team mentoring |
 
