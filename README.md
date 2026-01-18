@@ -314,12 +314,16 @@ class NineteenPayTSP {
 | **Admin Dashboard** | Full merchant management & analytics |
 | **Webhook System** | HMAC-signed callbacks with retry mechanism |
 | **Audit System** | Complete audit trail with geolocation tracking |
+| **KDK Playground** | Interactive sandbox for Pay-in/Payout testing & development |
 
 **Key Achievements:**
 - ✅ Designed for 500+ TPS with sub-100ms latency
 - ✅ Bank-grade security with 15+ security mechanisms
 - ✅ Zero-downtime deployment architecture
 - ✅ Complete audit trail for regulatory compliance
+
+**🎮 Special Feature: KDK Playground**
+> Interactive developer sandbox built into the merchant dashboard for real-time testing of Pay-in and Payout APIs. Allows merchants to test UPI flows, bank integrations, and payment scenarios in a safe environment before going live. Features live API response visualization, transaction simulation, and debugging tools.
 
 ---
 
